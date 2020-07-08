@@ -1,0 +1,9 @@
+html {
+    position: relative;
+    min-height: 80vh;
+}
+.footer {
+    padding-top: 2rem;
+    height: 10vh;
+
+}

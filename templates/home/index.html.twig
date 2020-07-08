@@ -1,0 +1,81 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Articles{% endblock %}
+
+{% block content %}
+
+    <section class="container mt-5 mb-5">
+
+        <article class="mx-auto row d-flex flex-md-row justify-content-md-between justify-content-center" id="list">
+
+            <div class="card mt-4" style="width: 18rem;">
+                <img src="{{ article.image }}" class="card-img-top" alt="une image">
+                <div class="card-body">
+                    <h5 class="card-title"> {{ article.title }} </h5>
+                </div>
+                <p class="card-text">
+                    {{ article.content }}
+                </p>
+                <a href="" class="btn btn-primary">Lire la suite</a>
+            </div>
+
+            <div class="card mt-4" style="width: 18rem;">
+                <img src="{{ article.image }}" class="card-img-top" alt="une image">
+                <div class="card-body">
+                    <h5 class="card-title"> {{ article.title }} </h5>
+                </div>
+                <p class="card-text">
+                    {{ article.content }}
+                </p>
+                <a href="" class="btn btn-primary">Lire la suite</a>
+            </div>
+
+            <div class="card mt-4" style="width: 18rem;">
+                <img src="{{ article.image }}" class="card-img-top" alt="une image">
+                <div class="card-body">
+                    <h5 class="card-title"> {{ article.title }} </h5>
+                </div>
+                <p class="card-text">
+                    {{ article.content }}
+                </p>
+                <a href="" class="btn btn-primary">Lire la suite</a>
+            </div>
+
+            <div class="card mt-4" style="width: 18rem;">
+                <img src="{{ article.image }}" class="card-img-top" alt="une image">
+                <div class="card-body">
+                    <h5 class="card-title"> {{ article.title }} </h5>
+                </div>
+                <p class="card-text">
+                    {{ article.content }}
+                </p>
+                <a href="" class="btn btn-primary">Lire la suite</a>
+            </div>
+
+            <div class="card mt-4" style="width: 18rem;">
+                <img src="{{ article.image }}" class="card-img-top" alt="une image">
+                <div class="card-body">
+                    <h5 class="card-title"> {{ article.title }} </h5>
+                </div>
+                <p class="card-text">
+                    {{ article.content }}
+                </p>
+                <a href="" class="btn btn-primary">Lire la suite</a>
+            </div>
+
+            <div class="card mt-4" style="width: 18rem;">
+                <img src="{{ article.image }}" class="card-img-top" alt="une image">
+                <div class="card-body">
+                    <h5 class="card-title"> {{ article.title }} </h5>
+                </div>
+                <p class="card-text">
+                    {{ article.content }}
+                </p>
+                <a href="" class="btn btn-primary">Lire la suite</a>
+            </div>
+
+
+
+        </article>
+    </section>
+{% endblock %}
