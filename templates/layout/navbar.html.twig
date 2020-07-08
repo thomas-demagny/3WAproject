@@ -1,0 +1,21 @@
+
+<a href="#menu-toggle" id="menu-toggle" class="navbar-brand"><span class="navbar-toggler-icon"></span></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarsExample02">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active"> <a class="nav-link" href="{{ path('home')}}"> Home <span class="sr-only">(current)</span></a> </li>
+
+        </ul>
+
+    </div>
+
+<div id="wrapper" class="toggled">
+
+    <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+
+            <li> <a href="{{ path('index',{limit:3}) }}" > Index Blog </a> </li>
+            <li> <a href="#">Articles</a> </li>
+            <li> <a href="#">Me Contacter</a> </li>
+        </ul>
+    </div>
+</div>
